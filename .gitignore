@@ -2,6 +2,7 @@ _build
 build
 dist
 reports
+.eggs/*
 *.egg-info
 *.pyc
 *.pyo
@@ -10,3 +11,9 @@ reports
 .tox
 *.sqlite3
 .DS_Store
+*venv/*
+*.vscode
+django_crum.egg-info
+lib/*
+pyvenv.cfg
+bin/*
